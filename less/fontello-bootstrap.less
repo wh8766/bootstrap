@@ -1,0 +1,97 @@
+//
+// Glyphicons for Bootstrap
+//
+// Since icons are fonts, they can be placed anywhere text is placed and are
+// thus automatically sized to match the surrounding child. To use, create an
+// inline element with the appropriate classes, like so:
+//
+// <a href="#"><span class="glyphicon glyphicon-star"></span> Star</a>
+
+// Import the fonts
+@font-face {
+  font-family: 'fontello-bootstrap';
+  src: url('@{icon-font-path}fontello-bootstrap.eot');
+  src: url('@{icon-font-path}fontello-bootstrap.eot?#iefix') format('embedded-opentype'),
+       url('@{icon-font-path}fontello-bootstrap.woff') format('woff'),
+       url('@{icon-font-path}fontello-bootstrap.ttf') format('truetype'),
+       url('@{icon-font-path}fontello-bootstrap.svg#@{icon-tello-svg-id}') format('svg');
+}
+
+// Catchall baseclass
+.glyphicon {
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  font-family: 'fontello-bootstrap';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Individual icons
+//.glyphicon-asterisk               { &:before { content: "\2a"; } }
+.glyphicon-pencil{&:before { content: '\e800'; } }
+.glyphicon-users{&:before { content: '\e801'; } }
+.glyphicon-ok-sign{&:before { content: '\e802'; } }
+.glyphicon-remove-sign{&:before { content: '\e803'; } }
+.glyphicon-mail{&:before { content: '\e804'; } }
+.glyphicon-wait{&:before { content: '\e805'; } }
+.glyphicon-stats{&:before { content: '\e806'; } }
+.glyphicon-hammer{&:before { content: '\e807'; } }
+.glyphicon-link{&:before { content: '\e808'; } }
+.glyphicon-chat{&:before { content: '\e809'; } }
+.glyphicon-umbrella{&:before { content: '\e80a'; } }
+.glyphicon-award{&:before { content: '\e80c'; } }
+.glyphicon-sitemap{&:before { content: '\e81b'; } }
+.glyphicon-desktop{&:before { content: '\e822'; } }
+.glyphicon-laptop{&:before { content: '\e823'; } }
+.glyphicon-tablet{&:before { content: '\e824'; } }
+.glyphicon-calc{&:before { content: '\e826'; } }
+.glyphicon-wechat{&:before { content: '\e827'; } }
+.glyphicon-weibo{&:before { content: '\e828'; } }
+.glyphicon-bank{&:before { content: '\e829'; } }
+.glyphicon-qq{&:before { content: '\e82a'; } }
+.glyphicon-plus{&:before { content: '\e836'; } }
+.glyphicon-database{&:before { content: '\e83a'; } }
+.glyphicon-android{&:before { content: '\e83b'; } }
+.glyphicon-apple{&:before { content: '\e83c'; } }
+.glyphicon-chart-bar{&:before { content: '\e83d'; } }
+.glyphicon-chart-pie{&:before { content: '\e83e'; } }
+.glyphicon-th-large{&:before { content: '\e843'; } }
+.glyphicon-ok{&:before { content: '\e844'; } }
+.glyphicon-user-plus{&:before { content: '\e845'; } }
+.glyphicon-remove{&:before { content: '\e848'; } }
+.glyphicon-off{&:before { content: '\e849'; } }
+.glyphicon-signal{&:before { content: '\e84a'; } }
+.glyphicon-cog{&:before { content: '\e84b'; } }
+.glyphicon-trash{&:before { content: '\e84c'; } }
+.glyphicon-home{&:before { content: '\e84d'; } }
+.glyphicon-time{&:before { content: '\e84e'; } }
+.glyphicon-download-alt{&:before { content: '\e84f'; } }
+.glyphicon-inbox{&:before { content: '\e850'; } }
+.glyphicon-arrows-cw,
+.glyphicon-refresh{&:before { content: '\e851'; } }
+.glyphicon-headphones{&:before { content: '\e852'; } }
+.glyphicon-qrcode{&:before { content: '\e853'; } }
+.glyphicon-camera{&:before { content: '\e854'; } }
+.glyphicon-facetime-video{&:before { content: '\e855'; } }
+.glyphicon-question-sign{&:before { content: '\e856'; } }
+.glyphicon-info-sign{&:before { content: '\e857'; } }
+.glyphicon-attention-circled,
+.glyphicon-info-circled,
+.glyphicon-exclamation-sign{&:before { content: '\e858'; } }
+.glyphicon-gift{&:before { content: '\e859'; } }
+.glyphicon-leaf{&:before { content: '\e85a'; } }
+.glyphicon-calendar{&:before { content: '\e85b'; } }
+.glyphicon-comment{&:before { content: '\e85c'; } }
+.glyphicon-bell{&:before { content: '\e85d'; } }
+.glyphicon-mobile,
+.glyphicon-phone{&:before { content: '\e85e'; } }
+.glyphicon-credit-card{&:before { content: '\e85f'; } }
+.glyphicon-send{&:before { content: '\e860'; } }
+.glyphicon-user{&:before { content: '\e861'; } }
+.glyphicon-phone-alt{&:before { content: '\e862'; } }
+.glyphicon-film{&:before { content: '\e863'; } }
+.glyphicon-star{&:before { content: '\e865'; } }

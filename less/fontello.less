@@ -1,0 +1,103 @@
+//
+// Glyphicons for Bootstrap
+//
+// Since icons are fonts, they can be placed anywhere text is placed and are
+// thus automatically sized to match the surrounding child. To use, create an
+// inline element with the appropriate classes, like so:
+//
+// <a href="#"><span class="glyphicon glyphicon-star"></span> Star</a>
+
+// Import the fonts
+@font-face {
+  font-family: 'fontello';
+  src: url('@{icon-font-path}@{icon-tello-name}.eot');
+  src: url('@{icon-font-path}@{icon-tello-name}.eot?#iefix') format('embedded-opentype'),
+       url('@{icon-font-path}@{icon-tello-name}.woff') format('woff'),
+       url('@{icon-font-path}@{icon-tello-name}.ttf') format('truetype'),
+       url('@{icon-font-path}@{icon-tello-name}.svg#@{icon-tello-svg-id}') format('svg');
+}
+
+// Catchall baseclass
+.glyphicon {
+  display: inline-block;
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Individual icons
+//.glyphicon-asterisk               { &:before { content: "\2a"; } }
+.glyphicon-clock{&:before { content: '\e800'; }}
+.glyphicon-users{&:before { content: '\e801'; }}
+.glyphicon-envelope,
+.glyphicon-mail{&:before { content: '\e802'; }}
+.glyphicon-mail-alt{&:before { content: '\e803'; }}
+.glyphicon-ok{&:before { content: '\e804'; }}
+.glyphicon-minus{&:before { content: '\e805'; }}
+.glyphicon-play-circled{&:before { content: '\e806'; }}
+.glyphicon-hammer{&:before { content: '\e807'; }}
+.glyphicon-remove,
+.glyphicon-cancel{&:before { content: '\e808'; }}
+.glyphicon-leaf{&:before { content: '\e809'; }}
+.glyphicon-umbrella{&:before { content: '\e80a'; }}
+.glyphicon-plus{&:before { content: '\e80b'; }}
+.glyphicon-award{&:before { content: '\e80c'; }}
+.glyphicon-lightbulb{&:before { content: '\e80d'; }}
+.glyphicon-block{&:before { content: '\e80e'; }}
+.glyphicon-help{&:before { content: '\e80f'; }}
+.glyphicon-help-circled{&:before { content: '\e810'; }}
+.glyphicon-info-circled{&:before { content: '\e811'; }}
+.glyphicon-info{&:before { content: '\e812'; }}
+.glyphicon-link{&:before { content: '\e813'; }}
+.glyphicon-download-cloud{&:before { content: '\e814'; }}
+.glyphicon-upload-cloud{&:before { content: '\e815'; }}
+.glyphicon-comment{&:before { content: '\e816'; }}
+.glyphicon-chat{&:before { content: '\e817'; }}
+.glyphicon-comment-empty{&:before { content: '\e818'; }}
+.glyphicon-chat-empty{&:before { content: '\e819'; }}
+.glyphicon-bell{&:before { content: '\e81a'; }}
+.glyphicon-sitemap{&:before { content: '\e81b'; }}
+.glyphicon-trash{&:before { content: '\e81c'; }}
+.glyphicon-trash-empty{&:before { content: '\e81d'; }}
+.glyphicon-headphones{&:before { content: '\e81e'; }}
+.glyphicon-arrows-cw{&:before { content: '\e81f'; }}
+.glyphicon-pencil{&:before { content: '\e820'; }}
+.glyphicon-attention{&:before { content: '\e821'; }}
+.glyphicon-desktop{&:before { content: '\e822'; }}
+.glyphicon-laptop{&:before { content: '\e823'; }}
+.glyphicon-tablet{&:before { content: '\e824'; }}
+.glyphicon-vcard{&:before { content: '\e825'; }}
+.glyphicon-calc{&:before { content: '\e826'; }}
+.glyphicon-wechat{&:before { content: '\e827'; }}
+.glyphicon-weibo{&:before { content: '\e828'; }}
+.glyphicon-bank{&:before { content: '\e829'; }}
+.glyphicon-qq{&:before { content: '\e82a'; }}
+.glyphicon-attention-circled{&:before { content: '\e82b'; }}
+.glyphicon-cog-alt{&:before { content: '\e82c'; }}
+.glyphicon-lock{&:before { content: '\e82d'; }}
+.glyphicon-calendar{&:before { content: '\e82e'; }}
+.glyphicon-down-open{&:before { content: '\e82f'; }}
+.glyphicon-left-open{&:before { content: '\e830'; }}
+.glyphicon-right-open{&:before { content: '\e831'; }}
+.glyphicon-up-open{&:before { content: '\e832'; }}
+.glyphicon-camera{&:before { content: '\e833'; }}
+.glyphicon-off{&:before { content: '\e834'; }}
+.glyphicon-gift{&:before { content: '\e837'; }}
+.glyphicon-credit-card{&:before { content: '\e838'; }}
+.glyphicon-yen{&:before { content: '\e839'; }}
+.glyphicon-database{&:before { content: '\e83a'; }}
+.glyphicon-android{&:before { content: '\e83b'; }}
+.glyphicon-apple{&:before { content: '\e83c'; }}
+.glyphicon-chart-bar{&:before { content: '\e83d'; }}
+.glyphicon-chart-pie{&:before { content: '\e83e'; }}
+.glyphicon-qrcode{&:before { content: '\e83f'; }}
+.glyphicon-paper-plane{&:before { content: '\e840'; }}
+.glyphicon-inbox{&:before { content: '\e841'; }}
+.glyphicon-mobile,
+.glyphicon-phone{&:before { content: '\e842'; }}
+.glyphicon-user-plus{&:before { content: '\e845'; }}
+.glyphicon-videocam{&:before { content: '\e846'; }}
+.glyphicon-phone-alt{&:before { content: '\e847'; }}
